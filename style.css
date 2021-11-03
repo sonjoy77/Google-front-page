@@ -139,3 +139,29 @@ section .footer .row ul li a{
     color: #5f6368;
     margin-right: 25px;
 }
+
+/*Desktop View*/
+
+@media(min-width:1024px){
+
+}
+
+/*Tablet View*/
+
+@media(min-width:769px) and (max-width:1023px){
+
+}
+
+/*Mobile View*/
+
+@media(max-width:768px){
+    section .main .searchbox .search{
+        width: 78%;
+    }
+    section .main .searchbox .icons{
+        width: 84%;
+    }
+    section .footer .row ul{
+        display: block;
+    }
+}
